@@ -1,4 +1,10 @@
 GIT
+  remote: https://github.com/excid3/state_machine.git
+  revision: 3dc8b15e8b0abf23ba575d1486aec6d4b333fcfb
+  specs:
+    state_machine (1.2.0)
+
+GIT
   remote: https://github.com/heartcombo/simple_form.git
   revision: 31fe25504771bd6cd425b585a4e0ed652fba4521
   specs:
@@ -263,6 +269,7 @@ DEPENDENCIES
   simple_form!
   spring
   sqlite3 (~> 1.4)
+  state_machine!
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 4.1.0)
