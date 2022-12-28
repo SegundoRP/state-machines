@@ -4,7 +4,7 @@ class Payment < ApplicationRecord
       transition pending: :processing
     end
 
-    event :fail do
+    event :failed do
       transition processing: :failed
     end
 
